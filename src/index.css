@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: poppin;
+    src: url(assets/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: inter;
+    src: url(assets/fonts/Inter-Regular.ttf);
+}
+
+body{
+    background-color: #fff;
+}
+
+*>li{
+    list-style: none;
+}
+
+.poppin{
+    font-family: poppin;
+}
+.inter{
+    font-family: inter;
+}
+
+.text-orang{
+    color: #F5993C;
+}
+.back-orang{
+    background-color: #F5993C;
+}
+
+.heading{
+    line-height: 72px;
+    font-weight: 900;
+}
+.heroImg img{
+    width: 750px;
+    /* height: 560px; */
+    object-fit: cover;
+}
+.max{
+    max-width: 1900px;
+}
+
+.benefitImg img{
+    width: 90%;
+    height: 620px;
+    object-fit: cover;
+}
+
+.small-img img{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
