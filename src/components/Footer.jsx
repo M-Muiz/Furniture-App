@@ -12,10 +12,10 @@ const Footer = () => {
         </div>
       </div>
       <div className="h-[200px] bg-[#353434] flex items-center px-24">
-        <h1 className="text-4xl text-white">Subscribe to get attractive offers<br /> on our products</h1>
-        <div className="flex items_center bg-white">
-          <input type="text" className="bg-transparent p-4" />
-          <button>Subscribe</button>
+        <h1 className="text-2xl text-white px-3 min-w-min">Subscribe to get attractive offers on our products</h1>
+        <div className="flex items-center justify-between bg-white p-3 outline-none max-w-max">
+          <input type="text" className="bg-transparent w-48" placeholder="youremail@mail.com" />
+          <button className="bg-orange-600 rounded-md text-white px-5 py-2">Subscribe</button>
         </div>
       </div>
     </div>
