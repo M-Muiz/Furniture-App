@@ -19,7 +19,15 @@ const DarkBox = () => {
 
 <div className="">
 
-  <div className="">
+  <div className="flex flex-col gap-5">
+    <div className="flex gap-2">
+      <img src={sr} alt="" />
+      <h1 className="text-2xl font-semibold">Quality Craftsmanship</h1>
+    </div>
+    <div className="flex gap-2">
+      <img src={sr} alt="" />
+      <h1 className="text-2xl font-semibold">Quality Craftsmanship</h1>
+    </div>
     <div className="flex">
       <img src={sr} alt="" />
       <h1 className="text-2xl font-semibold">Quality Craftsmanship</h1>
