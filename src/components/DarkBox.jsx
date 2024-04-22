@@ -19,7 +19,7 @@ const DarkBox = () => {
 
       <div className="">
 
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-9">
           <div className="flex flex-col gap-1">
             <div className="flex gap-2">
               <img src={sr} alt="" />
